@@ -1,0 +1,147 @@
+body{
+    margin: 5%;
+    padding: 20px;
+    font-size: 1em;
+    font-weight: normal;
+    font-family:Georgia, 'Times New Roman', Times, serif;
+    background-color: #00274C;
+}
+
+
+h1{
+    font-size: 3em;
+    font-weight: bold;
+    color: #FFCB05;
+    margin: 10px;
+    padding: 10px;
+    font-family:Georgia, 'Times New Roman', Times, serif;
+    text-align: center;
+}
+
+h2{
+    font-size: 2em;
+    color: #f2f2f2;
+    margin: 0;
+    padding: 0;
+    font-family: 'Courier New', Courier, monospace;
+}
+h3{
+    font-size: 1.2em;
+    color: #f2f2f2;
+    margin: 0;
+    padding: 0;
+    font-family:Georgia, 'Times New Roman', Times, serif;
+}
+p{
+    font-size: 1em;
+    color: #f2f2f2;
+    margin: 0;
+    padding: 0;
+    line-height: 1.5em;
+    font-family:Georgia, 'Times New Roman', Times, serif;
+}
+
+
+img{
+    padding: 5px;
+    margin: 5px;
+
+}
+
+a{
+    text-decoration:underline;
+    color: #f2f2f2;
+}
+
+footer{
+    font-size: 10px;
+    font-weight: normal;
+    margin-bottom: 10px;
+    font-family:Georgia, 'Times New Roman', Times, serif;
+    color: #f2f2f2;
+    text-align: center;
+}
+
+hr.solid {
+    border-top: 2px #f2f2f2;
+    background-color: #f2f2f2;
+    height: 1px;
+    width: 100%;
+    margin-top: 10px;
+    margin-bottom: 10px;
+}
+
+div{
+    margin: 10px;
+    padding: 10px;
+    border-top-right-radius: 30px;
+    border-bottom-left-radius: 30px;
+    background-color: #00274C;
+    color: #f2f2f2;
+    font-family:Georgia, 'Times New Roman', Times, serif;
+}
+.p2{
+    font-size: 1em;
+    color: #f2f2f2;
+    margin: 0;
+    padding: 20px;
+    line-height: 1.5em;
+    font-family:Georgia, 'Times New Roman', Times, serif;
+}
+li{
+    margin:10px;
+}
+
+
+ul{
+    position: sticky;
+    list-style-type: none;
+    display: inline-block;
+}
+
+nav ul{
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+    grid-gap: 10px;
+    justify-content: center;
+    align-items: center;
+}
+
+
+nav a {
+    padding: 5px;
+    background-color: #d5d5d5;
+    color: #000000;
+    border-radius: 5px;
+}
+
+nav a.active {
+    background-color: #FFCB05;
+    color: #000000;
+    font-weight: bold;
+    border-radius: 5px;
+    padding: 5px;
+}
+.skip {
+    position: absolute;
+    top: 0px;
+    left:0px;
+    opacity: 0;
+}
+
+
+.gallery{
+    display: grid;
+    grid-template-columns: 200px 200px;
+    justify-content: center;
+    align-items: center;
+}
+
+div ul{
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    grid-gap: 20px;
+    width: 100%;
+    justify-content: center;
+    align-items: stretch;
+}
